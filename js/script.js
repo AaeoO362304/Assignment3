@@ -33,6 +33,7 @@ document.getElementById("playButton").addEventListener("click", function() {
         user: user
         };
         localStorage.setItem("gameData", JSON.stringify(data));
+        document.getElementById("score").textContent=0;
     }
     let randomX =  Math.floor(Math.random()*boxWidth);
     let randomY =  Math.floor(Math.random()*boxHeight);
