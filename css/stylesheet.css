@@ -1,0 +1,115 @@
+
+#headbox {
+    background-color: rgb(57, 0, 57);
+    width: 40%;
+    height: 12.5%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#timertext, #title, #playerscore {
+    flex: 1;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 200%;
+}
+
+
+#playerscore {
+    text-align: right;
+    color: white;
+    font-size: 150%;
+}
+
+#timertext {
+    text-align: left;
+    top: 0;
+    color: white;
+    font-size: 150%;
+}
+
+
+.game-wrapper {
+  position: absolute;
+  left: 30%;
+  width: 40%; 
+  height: 75%;       
+  border-left: 10px solid rgb(57, 0, 57);
+  border-right: 10px solid rgb(57, 0, 57);
+  background: none;
+  top: 12.5%;
+  box-sizing: border-box;
+}
+
+#play-area {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+#bottombox {
+    background-color: rgb(57, 0, 57);
+    width: 40%;
+    height: 12.5%;
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 120%;
+}
+
+#buttons {
+    margin-top: 30%;
+    height: 25%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+
+#playButton {
+    width: 200px;
+    height: 25px;
+}
+
+#statsButton {
+    margin-top: 25px;
+    width: 200px;
+    height: 25px;
+    margin-bottom: 25px;
+}
+
+#leaderboardButton {
+    width: 200px;
+    height: 25px;
+}
+
+#square {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+#Leaderboard {
+    position: absolute;
+    border: 5px;
+    border-color: black;
+    text-align: center;
+    left: 25%;
+    top: 20%;
+    width: 50%;
+    height: 100%;
+    border-style:solid;
+    box-sizing: border-box;
+}

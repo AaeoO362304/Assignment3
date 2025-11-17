@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title> Catch the Cube game. </title>
+    <link href="css/stylesheet.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="headbox">
+    <div id="timertext">Timer: <span id="timer"></span></div>
+    <div id="title">Catch the Cube</div>
+    <div id="playerscore">Score: <span id="score">0</span></div>
+    </div>
+<div class="game-wrapper">
+  <div id="play-area">
+    <div id="square" hidden></div>
+    <div id="buttons">
+      <button id="playButton">Play</button>
+      <button id="statsButton">Statistic</button>
+      <button id="leaderboardButton">Leaderboard</button>
+    </div>
+    <div id="Leaderboard" hidden> </div>
+  </div>
+</div>
+
+
+    <div id="bottombox">
+        <p> Click the cube to increase your score! </p>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username"><br><br>
+    </div>
+
+        <script src="js/script.js"></script>
+</body>
+</html>
